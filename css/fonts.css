@@ -1,0 +1,52 @@
+@font-face {
+  font-display: swap;
+  font-family: "Gotham";
+  src: url("../fonts/Gotham-Light.eot?") format("eot"), url("../fonts/Gotham-Light.otf") format("opentype"), url("../fonts/Gotham-Light.woff") format("woff"), url("../fonts/Gotham-Light.woff2") format("woff2"), url("../fonts/Gotham-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Gotham";
+  src: url("../fonts/Gotham-Book.eot?") format("eot"), url("../fonts/Gotham-Book.otf") format("opentype"), url("../fonts/Gotham-Book.woff") format("woff"), url("../fonts/Gotham-Book.woff2") format("woff2"), url("../fonts/Gotham-Book.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Gotham";
+  src: url("../fonts/Gotham-Medium.eot?") format("eot"), url("../fonts/Gotham-Medium.otf") format("opentype"), url("../fonts/Gotham-Medium.woff") format("woff"), url("../fonts/Gotham-Medium.woff2") format("woff2"), url("../fonts/Gotham-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Gotham";
+  src: url("../fonts/Gotham-Bold.eot?") format("eot"), url("../fonts/Gotham-Bold.otf") format("opentype"), url("../fonts/Gotham-Bold.woff") format("woff"), url("../fonts/Gotham-Bold.woff2") format("woff2"), url("../fonts/Gotham-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-display: swap;
+  font-family: "Artegra Sans Extended Alt";
+  src: url("../fonts/ArtegraSansExAltRegular.eot") format("eot"), url("../fonts/ArtegraSansExAltRegular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Artegra Sans Extended Alt";
+  src: url("../fonts/ArtegraSansExAltSBold.eot") format("eot"), url("../fonts/ArtegraSansExAltSBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+
+
+
