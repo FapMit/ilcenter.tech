@@ -103,6 +103,13 @@ ul.list-blue-arrow li:after {
   display: flex;
   flex-flow: column;
   overflow: hidden;
+  opacity: 0;
+  transform: translateY(100vh);
+}
+.page.active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 3s, transform 1s;
 }
 
 body {
@@ -526,6 +533,13 @@ label .icon:after {
 
 .header {
   padding: 44px 0px;
+  opacity: 0;
+  transform: translateY(-50%);
+}
+.header.active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: transform 1.5s, opacity 2s;
 }
 
 .header__wrap {
