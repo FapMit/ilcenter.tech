@@ -2529,21 +2529,76 @@ label .icon:after {
 .tariff__wrap table {
   border-collapse: collapse;
   font-size: 16px;
-  font-weight: 400;
+}
+.tariff__wrap thead tr th {
+  border-color: transparent;  
+}
+.tariff__wrap thead tr th:first-child{
+  border-top-left-radius: 15px;
+}
+.tariff__wrap thead tr th:last-child {
+  border-top-right-radius: 15px;
 }
 .tariff__wrap th {
-  border: 2px solid #CFDAE7;
+  border: 1px solid #CFDAE7;
   padding: 5px;
 }
 .tariff__wrap td {
-  border: 2px solid #CFDAE7;
+  border-bottom: 2px solid #2741D0;
+  border-right: 1px solid #CFDAE7;
   padding: 5px;
+}
+.tariff__wrap tr:last-child td {
+  border-bottom: transparent;
+}
+.tariff__wrap tbody td:first-child {
+  color: #2741D0;
+  font-weight: normal;
+  border-left-color: transparent;
+}
+.tariff__wrap tbody td:last-child {
+  border-right-color: transparent;
+}
+
+.tariff__wrap th {
+  box-sizing: border-box;
+	background: linear-gradient(#2741D0, #1d2f96);
+	border-left: 1px solid #2741D0;
+	border-right: 1px solid #1d2f96;
+	border-top: 1px solid #2741D0;
+	border-bottom: 1px solid #1d2f96;
+	box-shadow: inset 0 1px 0 #999;
+	color: #fff;
+  font-weight: bold;
+	padding: 10px 15px;
+	position: relative;
+	text-shadow: 0 1px 0 #000;	
 }
 .tariff__wrap td:not(:first-child) {
   text-align: center;
 }
 .tariff__wrap tfoot td {
+  box-sizing: border-box;
+	background: linear-gradient(#2741D0, #1d2f96);
+	border-left: 1px solid #2741D0;
+	border-right: 1px solid #1d2f96;
+	border-top: 1px solid #2741D0;
+	border-bottom: 1px solid #1d2f96;
+	box-shadow: inset 0 1px 0 #999;
+	color: #fff;
   font-weight: bold;
+	padding: 10px 15px;
+	position: relative;
+	text-shadow: 0 1px 0 #000;	
+}
+.tariff__wrap tfoot tr td{
+  border-color: transparent;
+}
+.tariff__wrap tfoot tr:last-child td:first-child {
+  border-bottom-left-radius: 15px;
+}
+.tariff__wrap tfoot tr:last-child td:last-child {
+  border-bottom-right-radius: 15px;
 }
 /* FM */
 
