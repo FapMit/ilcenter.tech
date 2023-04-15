@@ -46,10 +46,15 @@ $(function () {
     $('.home__bg .before').attr('src', $('.home__bg .before').attr('data-src'));
 
     $('.home__bg .before').on('load', function () {
+        $('.header').addClass('active');
+        $('.page').addClass('active');
         setTimeout(function () {
             $('.home__bg').addClass('active');
         }, 3700)
     })
+    // $('.header').on('load', function () {
+    //     $('.header').addClass('active')
+    // })
 
 
     /*Home End*/
