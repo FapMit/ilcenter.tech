@@ -870,7 +870,7 @@ label .icon:after {
   margin-bottom: 21px;
   height: 150px;
   display: flex;
-  align-items: flex-end;
+  align-items: flex-start;
 }
 
 .legal-policy__item-content p {
