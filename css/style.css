@@ -1474,13 +1474,16 @@ label .icon:after {
   border-radius: 20px;
   background: linear-gradient(236.29deg, #FFFFFF 29.99%, #F4F9FF 79.17%);
   box-shadow: 0px 4px 100px rgba(208, 218, 227, 0.57);
-  height: 196px;
+  height: 232px;
   padding: 21px 20px 20px 34px;
   overflow: hidden;
   box-sizing: border-box;
   position: relative;
   z-index: 1;
   margin-bottom: 15px;
+}
+.constructor__card {
+  height: 196px;
 }
 
 .polisInfo__slider-item:after, .constructor__card:after {
