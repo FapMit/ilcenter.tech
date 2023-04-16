@@ -47,7 +47,8 @@ $(function () {
 
     $('.home__bg .before').on('load', function () {
         $('.header').addClass('active');
-        $('.page').addClass('active');
+        $('.home').addClass('active');
+        $('.legal-policy').addClass('active');
         setTimeout(function () {
             $('.home__bg').addClass('active');
         }, 3700)
