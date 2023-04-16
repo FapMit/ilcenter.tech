@@ -103,13 +103,6 @@ ul.list-blue-arrow li:after {
   display: flex;
   flex-flow: column;
   overflow: hidden;
-  opacity: 0;
-  transform: translateY(100vh);
-}
-.page.active {
-  opacity: 1;
-  transform: translateY(0);
-  transition: opacity 3s, transform 1s;
 }
 
 body {
@@ -704,6 +697,13 @@ label .icon:after {
 
 .home {
   padding-bottom: 100px;
+  opacity: 0;
+  transform: translateY(100%);
+}
+.home.active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 3s, transform 1s;
 }
 
 .home .container {
@@ -811,6 +811,13 @@ label .icon:after {
 
 .legal-policy {
   padding-bottom: 100px;
+  opacity: 0;
+  transform: translateY(100%);
+}
+.legal-policy.active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 3s, transform 1s;
 }
 
 .legal-policy h2 {
