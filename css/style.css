@@ -2246,7 +2246,6 @@ label .icon:after {
 .constructor__cards img {
   pointer-events: none;
 }
-
 .constructor__card-wrap {
   flex: 0 0 50%;
   max-width: 50%;
