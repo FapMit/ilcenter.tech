@@ -4649,6 +4649,9 @@ label .icon:after {
   .acquaintance__bottom{
     margin-top: 450px;
   }
+  .legal-policy__wrap {
+    margin-top: 100px;
+  }
   .polis__img-back{
     left:60px;
   }
@@ -4657,7 +4660,7 @@ label .icon:after {
   }
 
   .acquaintance__right{
-    top: 550px;
+    top: 350px;
   }
   .constructor__cards:nth-child(3) {
     margin-left: 10%;
